@@ -5,12 +5,12 @@
 
 ### NPM
 ```bash
-$ npm install --save v-spinner
+$ npm i --save v-svg-spinner
 ```
 
 ### ES6
 ```js
-import VueSpinner from 'v-spinner'
+import VueSpinner from 'v-svg-spinner'
 
 new Vue({
   components: {
@@ -20,7 +20,7 @@ new Vue({
 ```
 Or: 
 ```js
-Vue.component('v-spinner', require('v-spinner'));
+Vue.component('v-spinner', require('v-svg-spinner'));
 ```
 
 
