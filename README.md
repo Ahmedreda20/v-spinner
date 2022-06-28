@@ -11,13 +11,13 @@ Custom Vue spinner SVG component only one spinner
 ### NPM
 
 ```bash
- npm install --save  v-custom-spinner
+ npm install --save  vue-custom-spinner
 ```
 
 ### CommonJS
 
 ```js
-var VueCustomSpinner = require('v-custom-spinner');
+var VueCustomSpinner = require('vue-custom-spinner');
 
 new Vue({
   components: {
@@ -32,7 +32,7 @@ new Vue({
 ### ES6
 
 ```js
-import VueCustomSpinner from 'v-custom-spinner';
+import VueCustomSpinner from 'vue-custom-spinner';
 
 new Vue({
   components: {
@@ -44,18 +44,18 @@ new Vue({
 Or:
 
 ```js
-Vue.component('v-spinner', require('v-custom-spinner'));
+Vue.component('v-spinner', require('vue-custom-spinner'));
 ```
 
 ### Browser globals
 
-The `dist` folder contains `v-custom-spinner.umd.js` and `v-custom-spinner.umd.min.js`
+The `dist` folder contains `vue-custom-spinner.umd.js` and `vue-custom-spinner.umd.min.js`
 
 ```html
 <script src="path/to/vue.js"></script>
-<script src="path/to/v-custom-spinner/dist/v-custom-spinner.umd.js"></script>
+<script src="path/to/vue-custom-spinner/dist/vue-custom-spinner.umd.js"></script>
 // or
-<script src="path/to/v-custom-spinner"></script>
+<script src="path/to/vue-custom-spinner"></script>
 <script>
   var app = new Vue({
     el: '#app',
